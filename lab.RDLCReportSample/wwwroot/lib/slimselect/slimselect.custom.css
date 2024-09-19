@@ -3,19 +3,41 @@
     padding-right: 0px !important;
 }
 
-.ss-main .ss-arrow {
-    float: right !important;
-    margin-top: 6px !important;
+.ss-main .ss-values {
+    float: left !important;
+    width: 93% !important;
 }
 
 .ss-main .ss-values .ss-single {
-    font-size: 14px !important
+    font-size: 14px !important;
 }
 
 .ss-main .ss-values .ss-value .ss-value-text {
-    font-size: 14px !important
+    font-size: 14px !important;
 }
 
 .ss-main .ss-values .ss-value .ss-value-delete {
-    font-size: 14px !important
+    font-size: 14px !important;
+}
+
+.ss-main .ss-deselect {
+    float: left !important;
+    width: 3% !important;
+    margin-top: 6px !important;
+    text-align: right !important;
+}
+
+.ss-main .ss-arrow {
+    float: right !important;
+    width: 3% !important;
+    margin-top: 6px !important;
+    text-align: right !important;
+}
+
+.ss-content .ss-list {
+    height: 500px !important;
+}
+
+.ss-content.ss-open-below {
+    display: block !important;
 }

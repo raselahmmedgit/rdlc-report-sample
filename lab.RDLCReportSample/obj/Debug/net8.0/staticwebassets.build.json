@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PsiFE7p5xovHPrCXsN8MVJMSJ09jZhs89fj3hwZsUvc=",
+  "Hash": "M5yCz1Xb9YQOH8YsrUw2QawHdATQbPEGOXaQmpO/LgE=",
   "Source": "lab.RDLCReportSample",
   "BasePath": "_content/lab.RDLCReportSample",
   "Mode": "Default",
@@ -1385,12 +1385,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\slimselect\\slimselect.umd.min.js"
     },
     {
-      "Identity": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\AuditType.rdl",
+      "Identity": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\Product.rdl",
       "SourceId": "lab.RDLCReportSample",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\",
       "BasePath": "_content/lab.RDLCReportSample",
-      "RelativePath": "reports/AuditType.rdl",
+      "RelativePath": "reports/Product.rdl",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1401,7 +1401,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\reports\\AuditType.rdl"
+      "OriginalItemSpec": "wwwroot\\reports\\Product.rdl"
     }
   ]
 }

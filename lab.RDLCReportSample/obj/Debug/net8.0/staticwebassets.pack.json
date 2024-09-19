@@ -285,8 +285,8 @@
       "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.umd.min.js"
     },
     {
-      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\AuditType.rdl",
-      "PackagePath": "staticwebassets\\reports\\AuditType.rdl"
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\Product.rdl",
+      "PackagePath": "staticwebassets\\reports\\Product.rdl"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.lab.RDLCReportSample.props",

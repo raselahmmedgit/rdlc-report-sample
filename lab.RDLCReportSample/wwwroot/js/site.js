@@ -18,9 +18,11 @@
         var ddlSlimSelect = new SlimSelect({
             select: ddlInputEle,
             settings: {
-                placeholderText: '-- Select One --',
+                placeholderText: '-- Select One --', allowDeselect: true
             }
-        })
+        });
+
+        //$(ddlInputEle).css({ "display": "block", "position": "fixed", "width": "1px", "left": "-100px" });
 
     };
 
@@ -41,9 +43,11 @@
         var ddlSlimSelect = new SlimSelect({
             select: ddlInputEle,
             settings: {
-                placeholderText: '-- Select Multipule --',
+                placeholderText: '-- Select Multipule --', allowDeselect: true
             }
-        })
+        });
+
+        //$(ddlInputEle).css({ "display": "block", "position": "fixed", "width": "1px", "left": "-100px" });
 
     };
 
