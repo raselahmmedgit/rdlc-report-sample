@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab.RDLCReportSample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c02db2b7bd2963f3570ba87618304c1420eb852c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e69b9dfcc7e07ed746db24b8a1ed1254dda7deb")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab.RDLCReportSample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab.RDLCReportSample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

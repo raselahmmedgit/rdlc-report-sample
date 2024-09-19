@@ -1,0 +1,31 @@
+﻿@model lab.RDLCReportSample.Models.ProductDropdownViewModel
+
+@if (Model != null)
+{
+    if (Model.IsReadOnly == true)
+    {
+        
+        <label for="ProductId" class="control-label">Product:</label>
+        <input type="hidden" id="ProductId" name="ProductId" value="@Model.ProductId" />
+        <input  class="form-control" value="@Model.ProductName" disabled="disabled" readonly="readonly" />
+    }
+    else
+    {
+        <label for="ProductId" class="control-label">Product:</label>
+        <select id="ProductId" name="ProductId" class="form-control" data-val="true" data-val-required="Product is required">
+            @foreach (var item in Model.SelectList)
+            {
+                if (item.Selected)
+                {
+                    <option value="@item.Value" selected>@item.Text</option>
+                }
+                else
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            }
+        </select>
+        <span class="field-validation-error text-danger" data-valmsg-for="ProductId" data-valmsg-replace="true"></span>
+        
+    }
+}

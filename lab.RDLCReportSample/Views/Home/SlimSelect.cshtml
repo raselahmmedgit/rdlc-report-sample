@@ -1,0 +1,62 @@
+﻿@model lab.RDLCReportSample.Models.HomeViewModel
+
+@{
+    ViewData["Title"] = "Slim Select 2.0 Page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/lib/slimselect/slimselect.css" />
+    <link rel="stylesheet" href="~/lib/slimselect/slimselect.custom.css" />
+}
+
+<div class="row">
+    <div class="col-12">
+        <h3 class="display-4">Slim Select 2.0 Single Sample</h3>
+    </div>
+    <div class="col-12 mb-4">
+        <div class="content-form">
+
+            <form id="formdropdown" action="javascript:void(0);" method="post">
+                <div class="form-group">
+                    @await Component.InvokeAsync(typeof(DropdownProductViewComponent), new DropdownViewModel
+                   {
+                       IsReadOnly = false,
+                       IsRequired = false
+                   })
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="col-12">
+        <h3 class="display-4">Slim Select 2.0 Multi Sample</h3>
+    </div>
+    <div class="col-12 mb-4">
+        <div class="content-form">
+
+            <form id="formmultidropdown" action="javascript:void(0);" method="post">
+                <div class="form-group">
+                    @await Component.InvokeAsync(typeof(MultiDropdownProductViewComponent), new DropdownViewModel
+               {
+                   IsReadOnly = false,
+                   IsRequired = false,
+                   IsMultiple = true,
+                   SelectedValueList = @Model.ProductIdList
+               })
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+
+    <script src="~/lib/slimselect/slimselect.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        AppSlimSelect.Init('ProductId');
+        AppSlimSelect.InitMulti('ProductIdList');
+    </script>
+}

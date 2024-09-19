@@ -245,6 +245,50 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.cjs.js",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.cjs.js"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.css",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.css"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.css.map",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.custom.css",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.custom.css"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.es.js",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.es.js"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.global.js",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.global.js"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.js",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.js"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.min.js",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.umd.js",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.umd.js"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.umd.min.js",
+      "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.umd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\AuditType.rdl",
+      "PackagePath": "staticwebassets\\reports\\AuditType.rdl"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.lab.RDLCReportSample.props",
       "PackagePath": "build\\lab.RDLCReportSample.props"
     },

@@ -1,0 +1,30 @@
+﻿@model lab.RDLCReportSample.Models.ProductMultiDropdownViewModel
+
+@if (Model != null)
+{
+    if (Model.IsReadOnly == true)
+    {
+        <label for="ProductIdList" class="control-label">Product:</label>
+        <input type="hidden" id="ProductIdList" name="ProductIdList" value="@Model.ProductIdList" />
+        <input class="form-control" value="@Model.ProductNameList" disabled="disabled" readonly="readonly" />
+    }
+    else if (Model.IsMultiple == true)
+    {
+        <label for="ProductIdList" class="control-label">Product:</label>
+        <select id="ProductIdList" name="ProductIdList" class="form-control" multiple data-val="true" data-val-required="Product is required" style="display: inline-block;">
+            @foreach (var item in Model.SelectList)
+            {
+                if (item.Selected)
+                {
+                    <option value="@item.Value" selected>@item.Text</option>
+                }
+                else
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            }
+        </select>
+        <span class="field-validation-error text-danger" data-valmsg-for="ProductIdList" data-valmsg-replace="true"></span>
+        
+    }
+}

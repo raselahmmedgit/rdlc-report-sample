@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lab.RDLCReportSample
 build_property.RootNamespace = lab.RDLCReportSample
@@ -18,8 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\rasel.ahmmed\Documents\GitHub\rdlc-report-sample\lab.RDLCReportSample
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/rasel.ahmmed/Documents/GitHub/rdlc-report-sample/lab.RDLCReportSample/Views/Home/DynamicReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEeW5hbWljUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rasel.ahmmed/Documents/GitHub/rdlc-report-sample/lab.RDLCReportSample/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rasel.ahmmed/Documents/GitHub/rdlc-report-sample/lab.RDLCReportSample/Views/Home/SlimSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTbGltU2VsZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rasel.ahmmed/Documents/GitHub/rdlc-report-sample/lab.RDLCReportSample/Views/Shared/Components/DropdownProduct/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRHJvcGRvd25Qcm9kdWN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rasel.ahmmed/Documents/GitHub/rdlc-report-sample/lab.RDLCReportSample/Views/Shared/Components/MultiDropdownProduct/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTXVsdGlEcm9wZG93blByb2R1Y3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rasel.ahmmed/Documents/GitHub/rdlc-report-sample/lab.RDLCReportSample/Views/Shared/Error.cshtml]

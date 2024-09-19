@@ -1,4 +1,57 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿var AppSlimSelect = function () {
 
-// Write your JavaScript code.
+
+    var _init = function (ddlInputId) {
+        _generatorSlimSelect(ddlInputId, false);
+    };
+
+    var _initByClass = function (ddlInputId) {
+        _generatorSlimSelect(ddlInputId, true);
+    };
+
+    var _generatorSlimSelect = function (ddlInputId, isClass) {
+
+        var ddlInputEle = ('#' + ddlInputId);
+
+        if (isClass) { ddlInputEle = ('.' + ddlInputId) }
+
+        var ddlSlimSelect = new SlimSelect({
+            select: ddlInputEle,
+            settings: {
+                placeholderText: '-- Select One --',
+            }
+        })
+
+    };
+
+    var _initMulti = function (ddlInputId) {
+        _generatorSlimSelectMulti(ddlInputId, false);
+    };
+
+    var _initMultiByClass = function (ddlInputId) {
+        _generatorSlimSelectMulti(ddlInputId, true);
+    };
+
+    var _generatorSlimSelectMulti = function (ddlInputId, isClass) {
+
+        var ddlInputEle = ('#' + ddlInputId);
+
+        if (isClass) { ddlInputEle = ('.' + ddlInputId) }
+
+        var ddlSlimSelect = new SlimSelect({
+            select: ddlInputEle,
+            settings: {
+                placeholderText: '-- Select Multipule --',
+            }
+        })
+
+    };
+
+    return {
+        Init: _init,
+        InitByClass: _initByClass,
+
+        InitMulti: _initMulti,
+        InitMultiByClass: _initMultiByClass
+    };
+}();
