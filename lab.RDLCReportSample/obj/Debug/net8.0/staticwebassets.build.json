@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M5yCz1Xb9YQOH8YsrUw2QawHdATQbPEGOXaQmpO/LgE=",
+  "Hash": "1wwqgAzyxiExm0OgZHsXY/fXc/Xdn7xZedpPTPGprHE=",
   "Source": "lab.RDLCReportSample",
   "BasePath": "_content/lab.RDLCReportSample",
   "Mode": "Default",
@@ -1385,12 +1385,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\slimselect\\slimselect.umd.min.js"
     },
     {
-      "Identity": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\Product.rdl",
+      "Identity": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\lab.RDLCReportSample.Rdlc.rptproj.rsuser",
       "SourceId": "lab.RDLCReportSample",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\",
       "BasePath": "_content/lab.RDLCReportSample",
-      "RelativePath": "reports/Product.rdl",
+      "RelativePath": "reports/lab.RDLCReportSample.Rdlc/lab.RDLCReportSample.Rdlc.rptproj.rsuser",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1401,7 +1401,64 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\reports\\Product.rdl"
+      "OriginalItemSpec": "wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\lab.RDLCReportSample.Rdlc.rptproj.rsuser"
+    },
+    {
+      "Identity": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\Product.rdl",
+      "SourceId": "lab.RDLCReportSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\",
+      "BasePath": "_content/lab.RDLCReportSample",
+      "RelativePath": "reports/lab.RDLCReportSample.Rdlc/Product.rdl",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\Product.rdl"
+    },
+    {
+      "Identity": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\build.obj",
+      "SourceId": "lab.RDLCReportSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\",
+      "BasePath": "_content/lab.RDLCReportSample",
+      "RelativePath": "reports/lab.RDLCReportSample.Rdlc/SSRC/build.obj",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\build.obj"
+    },
+    {
+      "Identity": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\Product.rdl",
+      "SourceId": "lab.RDLCReportSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\",
+      "BasePath": "_content/lab.RDLCReportSample",
+      "RelativePath": "reports/lab.RDLCReportSample.Rdlc/SSRC/Product.rdl",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\Product.rdl"
     }
   ]
 }

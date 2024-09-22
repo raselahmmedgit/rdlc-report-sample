@@ -94,7 +94,7 @@ namespace lab.RDLCReportSample.Controllers
         public byte[] GetRawExcelReport(IEnumerable dataSource, string reportName, string fileName, string controllerName, string areaName)
         {
 
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             filePath = Path.Combine(WebHostEnvironment.ContentRootPath, filePath);
             try
             {
@@ -121,7 +121,7 @@ namespace lab.RDLCReportSample.Controllers
         public byte[] GetRawExcelReport(IEnumerable dataSource, Dictionary<string, string> reportParams, string reportName, string fileName, string controllerName, string areaName)
         {
 
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             filePath = Path.Combine(WebHostEnvironment.ContentRootPath, filePath);
             try
             {
@@ -164,7 +164,7 @@ namespace lab.RDLCReportSample.Controllers
         public byte[] GetRawPdfReport(IEnumerable dataSource, string reportName, string fileName, string controllerName, string areaName)
         {
 
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             filePath = Path.Combine(WebHostEnvironment.ContentRootPath, filePath);
             try
             {
@@ -191,7 +191,7 @@ namespace lab.RDLCReportSample.Controllers
         public byte[] GetRawPdfReport(IEnumerable dataSource, Dictionary<string, string> reportParams, string reportName, string fileName, string controllerName, string areaName)
         {
 
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             filePath = Path.Combine(WebHostEnvironment.ContentRootPath, filePath);
             try
             {
@@ -274,7 +274,7 @@ namespace lab.RDLCReportSample.Controllers
         public IActionResult GetExcelReport(Dictionary<string, List<object>> dataSource, Dictionary<string, string> reportParams, string reportName, string fileName, string controllerName, string areaName)
         {
             fileName = $"{fileName}_{DateTime.Now.ToFormatedDateTimeWithAmPmString("_", true)}";
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             //Path.Combine("Areas", areaName, "Views", controllerName, $"{reportName}.rdl");
             string extension = ".xlsx";
             string mimeType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
@@ -323,7 +323,7 @@ namespace lab.RDLCReportSample.Controllers
         public IActionResult GetExcelReport(IEnumerable dataSource, Dictionary<string, string> reportParams, string reportName, string fileName, string controllerName, string areaName)
         {
             fileName = $"{fileName}_{DateTime.Now.ToFormatedDateTimeWithAmPmString("_", true)}";
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             //Path.Combine("Areas", areaName, "Views", controllerName, $"{reportName}.rdl");
             string extension = ".xlsx";
             string mimeType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
@@ -371,7 +371,7 @@ namespace lab.RDLCReportSample.Controllers
         public IActionResult GetPdfReport(Dictionary<string, List<object>> dataSource, Dictionary<string, string> reportParams, string reportName, string fileName, string controllerName, string areaName)
         {
             fileName = $"{fileName}_{DateTime.Now.ToFormatedDateTimeWithAmPmString("_", true)}";
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             //Path.Combine("Areas", areaName, "Views", controllerName, $"{reportName}.rdl");
             string extension = ".pdf";
             string mimeType = "application/pdf";
@@ -420,7 +420,7 @@ namespace lab.RDLCReportSample.Controllers
         public IActionResult GetPdfReport(IEnumerable dataSource, Dictionary<string, string> reportParams, string reportName, string fileName, string controllerName, string areaName)
         {
             fileName = $"{fileName}_{DateTime.Now.ToFormatedDateTimeWithAmPmString("_", true)}";
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             //Path.Combine("Areas", areaName, "Views", controllerName, $"{reportName}.rdl");
             string extension = ".pdf";
             string mimeType = "application/pdf";
@@ -489,7 +489,7 @@ namespace lab.RDLCReportSample.Controllers
         public IActionResult GetExcelReport(IEnumerable dataSource, string reportName, string fileName, string controllerName, string areaName)
         {
             fileName = $"{fileName}_{DateTime.Now.ToFormatedDateTimeWithAmPmString("_", true)}";
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             //Path.Combine("Areas", areaName, "Views", controllerName, $"{reportName}.rdl");
             string extension = ".xlsx";
             string mimeType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
@@ -526,7 +526,7 @@ namespace lab.RDLCReportSample.Controllers
         public IActionResult GetPdfReport(IEnumerable dataSource, string reportName, string fileName, string controllerName, string areaName)
         {
             fileName = $"{fileName}_{DateTime.Now.ToFormatedDateTimeWithAmPmString("_", true)}";
-            string filePath = Path.Combine("wwwroot", "ReportFiles", "Bits.Web.Views.Report", $"{reportName}.rdl");
+            string filePath = Path.Combine("wwwroot", "reprots", "lab.RDLCReportSample.Rdlc", $"{reportName}.rdl");
             //Path.Combine("Areas", areaName, "Views", controllerName, $"{reportName}.rdl");
             string extension = ".pdf";
             string mimeType = "application/pdf";

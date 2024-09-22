@@ -285,8 +285,20 @@
       "PackagePath": "staticwebassets\\lib\\slimselect\\slimselect.umd.min.js"
     },
     {
-      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\Product.rdl",
-      "PackagePath": "staticwebassets\\reports\\Product.rdl"
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\Product.rdl",
+      "PackagePath": "staticwebassets\\reports\\lab.RDLCReportSample.Rdlc\\Product.rdl"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\Product.rdl",
+      "PackagePath": "staticwebassets\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\Product.rdl"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\build.obj",
+      "PackagePath": "staticwebassets\\reports\\lab.RDLCReportSample.Rdlc\\SSRC\\build.obj"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\reports\\lab.RDLCReportSample.Rdlc\\lab.RDLCReportSample.Rdlc.rptproj.rsuser",
+      "PackagePath": "staticwebassets\\reports\\lab.RDLCReportSample.Rdlc\\lab.RDLCReportSample.Rdlc.rptproj.rsuser"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.lab.RDLCReportSample.props",
