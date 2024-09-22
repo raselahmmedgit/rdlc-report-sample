@@ -1,3 +1,6 @@
+using lab.RDLCReportSample.Extensions;
+using lab.RDLCReportSample.Helpers;
+using lab.RDLCReportSample.Managers;
 using lab.RDLCReportSample.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -7,10 +10,12 @@ namespace lab.RDLCReportSample.Controllers
     public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IDataManager _iDataManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IDataManager iDataManager)
         {
             _logger = logger;
+            _iDataManager = iDataManager;
         }
 
         public IActionResult Index()
@@ -110,6 +115,37 @@ namespace lab.RDLCReportSample.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "HomeController - Task<IActionResult> DynamicReport()");
+                return ErrorView(ex);
+            }
+        }
+
+        public async Task<IActionResult> DynamicReportExport(string fileType)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(fileType))
+                {
+                    return NotFound();
+                }
+                
+                var data = await _iDataManager.GetProductAsync();
+
+                if (fileType == "pdf")
+                {
+                    byte[] report = GetRawReport(data, AppEnums.ExportType.Pdf.ToDisplayAttr().Name, "DynamicReport", "Home", "");
+                    return new FileContentResult(report, "application/" + fileType);
+                }
+                else
+                {
+                    var report = GetReport(data, fileType, "DynamicReport", "Home", "");
+                    return report;
+
+                }
+            }
+
+            catch (System.Exception ex)
+            {
+                _logger.LogError(ex, "HomeController - Task<IActionResult> DynamicReportExport(string fileType)");
                 return ErrorView(ex);
             }
         }
