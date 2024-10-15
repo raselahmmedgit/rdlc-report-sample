@@ -109,7 +109,6 @@ namespace lab.RDLCReportSample.Controllers
                     }
                 };
 
-
                 return View(dynamicReportViewModelList);
             }
             catch (Exception ex)
@@ -132,12 +131,12 @@ namespace lab.RDLCReportSample.Controllers
 
                 if (fileType == "pdf")
                 {
-                    byte[] report = GetRawReport(data, AppEnums.ExportType.Pdf.ToDisplayAttr().Name, "DynamicReport", "Home", "");
+                    byte[] report = GetRawReport(data, AppEnums.ExportType.Pdf.ToDisplayAttr().Name, "Product", "DynamicReport", "");
                     return new FileContentResult(report, "application/" + fileType);
                 }
                 else
                 {
-                    var report = GetReport(data, fileType, "DynamicReport", "Home", "");
+                    var report = GetReport(data, fileType, "Product", "DynamicReport", "");
                     return report;
 
                 }

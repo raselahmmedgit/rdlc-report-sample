@@ -59,11 +59,11 @@ namespace lab.RDLCReportSample.Controllers
         {
             if (fileType == AppEnums.ExportType.Pdf.ToDisplayAttr().Name)
             {
-                return GetRawPdfReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+                return GetRawPdfReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
             }
             else if (fileType == AppEnums.ExportType.Excel.ToDisplayAttr().Name)
             {
-                return GetRawExcelReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+                return GetRawExcelReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
             }
             else
             {
@@ -74,11 +74,11 @@ namespace lab.RDLCReportSample.Controllers
         {
             if (fileType == AppEnums.ExportType.Pdf.ToDisplayAttr().Name)
             {
-                return GetRawPdfReport(dataSource, controllerName, fileName, controllerName, areaName);
+                return GetRawPdfReport(dataSource, fileName, fileName, controllerName, areaName);
             }
             else if (fileType == AppEnums.ExportType.Excel.ToDisplayAttr().Name)
             {
-                return GetRawExcelReport(dataSource, controllerName, fileName, controllerName, areaName);
+                return GetRawExcelReport(dataSource, fileName, fileName, controllerName, areaName);
             }
             else
             {
@@ -88,7 +88,7 @@ namespace lab.RDLCReportSample.Controllers
         
         public byte[] GetRawExcelReport(IEnumerable dataSource, string fileName, string controllerName, string areaName)
         {
-            return GetRawExcelReport(dataSource, controllerName, fileName, controllerName, areaName);
+            return GetRawExcelReport(dataSource, fileName, fileName, controllerName, areaName);
         }
 
         public byte[] GetRawExcelReport(IEnumerable dataSource, string reportName, string fileName, string controllerName, string areaName)
@@ -158,7 +158,7 @@ namespace lab.RDLCReportSample.Controllers
 
         public byte[] GetRawPdfReport(IEnumerable dataSource, string fileName, string controllerName, string areaName)
         {
-            return GetRawPdfReport(dataSource, controllerName, fileName, controllerName, areaName);
+            return GetRawPdfReport(dataSource, fileName, fileName, controllerName, areaName);
         }
         
         public byte[] GetRawPdfReport(IEnumerable dataSource, string reportName, string fileName, string controllerName, string areaName)
@@ -235,11 +235,11 @@ namespace lab.RDLCReportSample.Controllers
         {
             if (fileType == AppEnums.ExportType.Pdf.ToDisplayAttr().Name)
             {
-                return GetPdfReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+                return GetPdfReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
             }
             else if (fileType == AppEnums.ExportType.Excel.ToDisplayAttr().Name)
             {
-                return GetExcelReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+                return GetExcelReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
             }
             else
             {
@@ -252,11 +252,11 @@ namespace lab.RDLCReportSample.Controllers
         {
             if (fileType == AppEnums.ExportType.Pdf.ToDisplayAttr().Name)
             {
-                return GetPdfReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+                return GetPdfReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
             }
             else if (fileType == AppEnums.ExportType.Excel.ToDisplayAttr().Name)
             {
-                return GetExcelReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+                return GetExcelReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
             }
             else
             {
@@ -267,7 +267,7 @@ namespace lab.RDLCReportSample.Controllers
         [NonAction]
         public IActionResult GetExcelReport(Dictionary<string, List<object>> dataSource, Dictionary<string, string> reportParams, string fileName, string controllerName, string areaName)
         {
-            return GetExcelReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+            return GetExcelReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
         }
 
         [NonAction]
@@ -364,7 +364,7 @@ namespace lab.RDLCReportSample.Controllers
         [NonAction]
         public IActionResult GetPdfReport(Dictionary<string, List<object>> dataSource, Dictionary<string, string> reportParams, string fileName, string controllerName, string areaName)
         {
-            return GetPdfReport(dataSource, reportParams, controllerName, fileName, controllerName, areaName);
+            return GetPdfReport(dataSource, reportParams, fileName, fileName, controllerName, areaName);
         }
         
         [NonAction]
@@ -467,11 +467,11 @@ namespace lab.RDLCReportSample.Controllers
         {
             if (fileType == AppEnums.ExportType.Pdf.ToDisplayAttr().Name)
             {
-                return GetPdfReport(dataSource, controllerName, fileName, controllerName, areaName);
+                return GetPdfReport(dataSource, fileName, fileName, controllerName, areaName);
             }
             else if (fileType == AppEnums.ExportType.Excel.ToDisplayAttr().Name)
             {
-                return GetExcelReport(dataSource, controllerName, fileName, controllerName, areaName);
+                return GetExcelReport(dataSource, fileName, fileName, controllerName, areaName);
             }
             else
             {
@@ -482,7 +482,7 @@ namespace lab.RDLCReportSample.Controllers
         [NonAction]
         public IActionResult GetExcelReport(IEnumerable dataSource, string fileName, string controllerName, string areaName)
         {
-            return GetExcelReport(dataSource, controllerName, fileName, controllerName, areaName);
+            return GetExcelReport(dataSource, fileName, fileName, controllerName, areaName);
         }
 
         [NonAction]
@@ -519,7 +519,7 @@ namespace lab.RDLCReportSample.Controllers
         [NonAction]
         public IActionResult GetPdfReport(IEnumerable dataSource, string fileName, string controllerName, string areaName)
         {
-            return GetPdfReport(dataSource, controllerName, fileName, controllerName, areaName);
+            return GetPdfReport(dataSource, fileName, fileName, controllerName, areaName);
         }
         
         [NonAction]

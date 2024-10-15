@@ -1,4 +1,4 @@
-﻿@model lab.RDLCReportSample.Models.HomeViewModel
+﻿@model List<lab.RDLCReportSample.Models.DynamicReportViewModel>
 
 @{
     ViewData["Title"] = "Dynamic Report Page";
@@ -13,7 +13,19 @@
     </div>
     <div class="col-12 mb-4">
         <div class="content-form">
-
+            <form method="post" asp-action="DynamicReportExport" asp-controller="Home" asp-area="" id="frmDynamicReportExport">
+                @* <input type="hidden" id="fileType" name="fileType" value="excel"> *@
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group mb-4">
+                        </div>
+                        <div class="form-group mb-4 pt-4 d-flex justify-content-end">
+                            <button type="submit" value="excel" name="FileType" class="btn btn-primary ml-4">Export Report (Excel)</button>
+                            <button type="submit" value="pdf" name="FileType" class="btn btn-primary ml-4">Export Report (PDF)</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>

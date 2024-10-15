@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\rdlc-report-sample\\lab.rdlcreportsample\\views\\home\\slimselect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|solutionrelative:views\\home\\slimselect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\rdlc-report-sample\\lab.rdlcreportsample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\rdlc-report-sample\\lab.rdlcreportsample\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\rdlc-report-sample\\lab.rdlcreportsample\\views\\home\\dynamicreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|solutionrelative:views\\home\\dynamicreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\rdlc-report-sample\\lab.rdlcreportsample\\views\\home\\slimselect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|solutionrelative:views\\home\\slimselect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\rdlc-report-sample\\lab.rdlcreportsample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C279694-E3B4-470E-9D6D-3381AC2C8F47}|lab.RDLCReportSample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\rdlc-report-sample\\lab.rdlcreportsample\\wwwroot\\lib\\slimselect\\slimselect.custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -30,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -47,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
               "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Controllers\\BaseController.cs",
               "RelativeToolTip": "Controllers\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAJAAAA",
+              "ViewState": "AQIAAOcBAAAAAAAAAAAAAAMCAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T05:44:18.332Z",
               "IsPinned": true,
@@ -61,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAQwIsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T08:51:56.45Z",
               "IsPinned": true,
@@ -75,13 +83,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SlimSelect.cshtml",
               "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Views\\Home\\SlimSelect.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\SlimSelect.cshtml",
               "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Views\\Home\\SlimSelect.cshtml",
               "RelativeToolTip": "Views\\Home\\SlimSelect.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADsAAAAxAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-17T08:52:06.939Z",
               "IsPinned": true,
@@ -89,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "slimselect.custom.css",
               "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\wwwroot\\lib\\slimselect\\slimselect.custom.css",
               "RelativeDocumentMoniker": "wwwroot\\lib\\slimselect\\slimselect.custom.css",
@@ -178,11 +186,33 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DynamicReport.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Views\\Home\\DynamicReport.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\DynamicReport.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Views\\Home\\DynamicReport.cshtml",
+              "RelativeToolTip": "Views\\Home\\DynamicReport.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T10:23:38.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\rdlc-report-sample\\lab.RDLCReportSample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T10:23:26.694Z",
+              "EditorCaption": ""
             }
           ]
         }
